@@ -1,0 +1,48 @@
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "PingFang SC", "Microsoft YaHei", "Microsoft YaHei Light", "Arial", "Sans-serif";
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+::-ms-clear {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  visibility: visible;
+}
+
+::-webkit-scrollbar-thumb:active {
+  visibility: visible;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #a6aaa9;
+}
+
+::-webkit-input-placeholder {
+  color: #d0d0d0;
+}

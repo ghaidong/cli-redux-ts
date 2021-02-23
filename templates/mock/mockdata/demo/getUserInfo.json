@@ -1,0 +1,40 @@
+{
+  "Id": 312064,
+  "UserType": 320379,
+  "Name": "guohd",
+  "RealName": "guohd",
+  "Password": "161EBD7D45089B3446EE4E0D86DBCF92",
+  "Comment": null,
+  "Title": "DepartmentManager",
+  "Telephone": "",
+  "Email": "365035964@qq.com",
+  "DemoStatus": 0,
+  "Version": 21351286,
+  "SpId": 1,
+  "UserTypeName": "A网关P全V全",
+  "CustomerIds": [
+    100001,
+    100716,
+    320325,
+    320326,
+    347380,
+    349602,
+    358919,
+    375285,
+    388901,
+    390919,
+    410294
+  ],
+  "SpDomain": "sp1",
+  "PrivilegeCodes": [
+    "2127",
+    "2138",
+    "2152",
+    "3001"
+  ],
+  "HasWholeCustomer": false,
+  "SpFullName": null,
+  "SpName": null,
+  "FedLoginUrl": null,
+  "CurrentSysId": "1"
+}

@@ -1,0 +1,14 @@
+{
+  "data": {
+    "TodoApp": {
+      "Error": "0",
+      "Message": [
+        ""
+      ],
+      "RequestId": null,
+      "Result": "Result",
+      "__typename": "root"
+    },
+    "__typename": "data"
+  }
+}

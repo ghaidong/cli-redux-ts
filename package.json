@@ -1,0 +1,26 @@
+{
+  "name": "cli-redux-ts",
+  "bin": {
+    "my-cli": "./index.js"
+  },
+  "version": "1.0.1",
+  "description": "project of cli-redux-ts，scaffold",
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "start": "webpack-dev-server",
+    "start-open": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghaidong/cli-redux-ts.git"
+  },
+  "author": "haidong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghaidong/cli-redux-ts/issues"
+  },
+  "homepage": "https://github.com/ghaidong/cli-redux-ts#readme",
+  "devDependencies": {
+    "commander": "^7.1.0"
+  }
+}

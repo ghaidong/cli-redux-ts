@@ -1,0 +1,41 @@
+.middle-content {
+  width: 100%;
+  height: calc(100% - 56px);
+  .left-panel {
+    width: $leftMenuWidth;
+    border: solid 1px #e6e6e6;
+    .left-menu {
+      // background-color: #00ccaa;
+    }
+  }
+  .right-control-primary {
+    display:flex;
+    flex-direction: row;
+    height: 50px;
+    .color-lump {
+      width: 7px;
+      height: 30px;
+      margin: 10px 0 auto 10px;
+      background: $greenTheme-primary;
+    }
+    .right-title {
+      font-weight: bolder;
+      margin-left: 10px;
+      line-height: 50px;
+    }
+  }
+  .right-control-sub {
+    display:flex;
+    flex-direction: row-reverse;
+    height: 50px;
+    border-bottom: solid 1px #e6e6e6;
+    button{
+      margin:0px 10px auto 10px;
+    }
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+    // background-color: #133aac;
+  }
+}

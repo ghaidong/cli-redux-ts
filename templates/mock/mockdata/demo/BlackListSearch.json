@@ -1,0 +1,17 @@
+{
+  "Result": [
+    {
+      "uniqueId": "gatewayId", 
+      "gatewayName": "gatewayName",
+      "sysName": "produceName",
+      "gatewayType": 0, 
+      "gatewyaModel": "gatewyaModel", 
+      "spName": "spName", 
+      "customerName": "customerName", 
+      "SN": "SN", 
+      "operationTime": "operationTime"
+    }
+  ],
+  "Error": "0",
+  "Message": []
+}
