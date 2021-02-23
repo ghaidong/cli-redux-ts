@@ -9,6 +9,7 @@ const program = require("commander")
 // console.log("path:", path)
 // console.log("__dirname:", __dirname)
 
+//递归赋值文件夹
 mkdir('./src', function () {
   copyTemplate('/index.html', './src/index.html')
   // console.log(fs.readFileSync(path.join(__dirname, 'templates', '/index.html'), 'utf-8'))
