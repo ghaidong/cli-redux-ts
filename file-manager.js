@@ -42,7 +42,7 @@ const fileManager = {
     fs.mkdir(path, function (err) {
       fn && fn()
     })
-  \
+  }
 }
 
 module.exports = fileManager
