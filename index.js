@@ -1,37 +1,14 @@
 #! node
 console.log("hello cli!")
-
-
+const fileManager = require("./file-manager")
 const path = require("path")
-const fs = require("fs")
-const program = require("commander")
+const initPath = ''
 
-// console.log("path:", path)
-// console.log("__dirname:", __dirname)
+fileManager.init()
+let fromdir = path.join(__dirname, 'templates')
+let todir = path.join(initPath)
+console.log("dir:", fromdir)
 
-//递归赋值文件夹
-mkdir('./src', function () {
-  copyTemplate('/index.html', './src/index.html')
-  // console.log(fs.readFileSync(path.join(__dirname, 'templates', '/index.html'), 'utf-8'))
-  // fs.writeFileSync('./src/index.html', fs.readFileSync(path.join(__dirname, 'templates', '/index.html'), 'utf-8'))
+fileManager.mkdir(initPath, function () {
+  fileManager.copyFolder(fromdir, todir)
 })
-
-
-function copyTemplate(from, to) {
-  from = path.join(__dirname, 'templates', from);
-  write(to, fs.readFileSync(from, 'utf-8'))
-}
-
-function write(path, str, mode) {
-  fs.writeFileSync(path, str)
-}
-
-function mkdir(path, fn) {
-  fs.mkdir(path, function (err) {
-    fn && fn()
-  })
-}
-
-
-
-

@@ -3,7 +3,7 @@
   "bin": {
     "my-cli": "./index.js"
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "project of cli-redux-ts，scaffold",
   "scripts": {
     "build": "webpack --progress --colors",
