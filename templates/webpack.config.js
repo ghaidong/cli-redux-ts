@@ -26,7 +26,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: '控制台',
       filename: 'index.html',
-      template: 'index.html'
+      template: 'src/index.html'
     })
   ],
   // optimization: {
