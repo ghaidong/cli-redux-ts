@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-console.log("this is cli hello!!!")
+console.log("this is cli hello!!")
